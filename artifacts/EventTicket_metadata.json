@@ -6,86 +6,38 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "endAt",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_ticketPrice",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "message",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "numberOfTicket",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pricePerTicket",
+				"name": "byTicket",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "TicketId",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "startAt",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "timestamp",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "totalAmount",
+				"name": "getAmount",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -125,11 +77,11 @@
 	},
 	"sources": {
 		"eventTicket.sol": {
-			"keccak256": "0xeb02a131e0e0283a93913d2540dd40d3729845bbe1400dfff0be27ae5ae456ed",
+			"keccak256": "0x015ad5d9131b2ab27c67443ac5a16bc587a9108a9547276425003e2b291acee5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8e351e150144a22d7ce7e1716d63f42d325e17413863c585db674d0792ac606b",
-				"dweb:/ipfs/QmQesmGrbXFfXqGL2JJC3hcsXjVgbDR5twBZucwyattG4B"
+				"bzz-raw://7996a74c5b5f27ab5e606413ebf617c375fd52ed5254553ba5df77782c81ea38",
+				"dweb:/ipfs/QmWYXfGrdpxeW3P7rJSowhJ6q57EYUvzTFhPT8RoAu3YXY"
 			]
 		}
 	},
